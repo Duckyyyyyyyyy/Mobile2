@@ -104,6 +104,6 @@ app.delete("/api/users/:id", (req, res) => {
   });
 });
 
-app.listen(port, ()=>{
-  console.log('server is running on http://localhost:${port}')
-})
+app.listen(port, () => {
+  console.log(`server is running on http://localhost:${port}`);
+});
